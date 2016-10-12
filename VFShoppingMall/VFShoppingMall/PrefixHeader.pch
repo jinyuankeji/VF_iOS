@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  VFShoppingMall
+//
+//  Created by gushi on 16/9/27.
+//  Copyright © 2016年 jinyuankeji. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define mainColor [UIColor colorWithRed:1.0/255 green:216.0/255 blue:226.0/255 alpha:1]
+#define DEVICE_WIDTH [UIScreen mainScreen].bounds.size.width
+#define DEVICE_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define app_url @"http://www.jinyuankeji.net/VF/portal/CommodityAction/"
+
+#endif /* PrefixHeader_pch */
+
